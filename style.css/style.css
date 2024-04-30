@@ -114,28 +114,24 @@ a {
 
 i {
     font-size: 20px;
+    margin-right: 5px;
 }
 
-#linkedin, #github, #whatsapp, #instagram {
+#linkedin, #github{
     border: 3px solid #30859E;
-    padding: 10px 40px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
     background-color: white;
-    width: 200px;
+    width: 150px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#linkedin:hover, #github:hover, #whatsapp:hover, #instagram:hover {
+#linkedin:hover, #github:hover {
     background-color: #30859E;
     color: white;
     border: 3px solid black;
-}
-
-#midias1 {
-    margin-top: 20px;
-}
-
-#midias2 {
-    margin-top: 20px;
 }
