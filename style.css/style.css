@@ -56,7 +56,7 @@ header nav ul li {
 }
 
 header nav ul li a:hover {
-    color: #5D8D9C;
+    color: #30859E;
 }
 
 header #logo {
@@ -82,11 +82,11 @@ main {
 #profile {
     width: 300px;
     border: 2px solid black;
-
+    border-radius: 20px;
 }
 
 #profile:hover {
-    cursor: pointer;
+    cursor: default;
     border: 2px solid #30859E;
 }
 
@@ -105,11 +105,11 @@ main {
 
 #right-main-container1, #right-main-container2 {
     height: 140px;
-    background-color: #E8E6CA;
+    background-color: white;
     border-radius: 20px;
     padding: 5px 30px;
     border: 2px solid black;
-    cursor: pointer;
+    cursor: default;
 }
 
 #right-main-container1:hover, #right-main-container2:hover {
@@ -118,7 +118,7 @@ main {
 
 #right-main-container2 {
     margin-top: 20px;
-    background-color: #E8E6CA;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +149,7 @@ i {
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    background-color: white;
+    background-color: #C9E1E8;
     width: 150px;
     padding: 10px 30px;
     display: flex;
@@ -166,3 +166,10 @@ i {
 
 /* Projects */
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px 0px;
+    color: #30859E;
+    cursor: default;
+}
