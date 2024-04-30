@@ -1,0 +1,141 @@
+/* Configurações gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+#body {
+    width: 70%;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+header #logo {
+    color: #30859E;
+    cursor: pointer;
+    letter-spacing: -2px;
+}
+
+header #logo span:hover {
+    color: black;
+}
+
+header #logo h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#logo-space {
+    margin: 0px 4px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a:hover {
+    color: #5D8D9C;
+}
+
+header #logo {
+    font-family: "Roboto", sans-serif;
+}
+
+/* conteúdo principal */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9E1E8;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+#profile {
+    width: 300px;
+    border: 5px solid #30859E;
+
+}
+
+#profile:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+#title, #sumary {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#name {
+    color: #30859E;
+}
+
+#sumary {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.midias {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: black;
+}
+
+i {
+    font-size: 20px;
+}
+
+#linkedin, #github, #whatsapp, #instagram {
+    border: 3px solid #30859E;
+    padding: 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    width: 200px;
+}
+
+#linkedin:hover, #github:hover, #whatsapp:hover, #instagram:hover {
+    background-color: #30859E;
+    color: white;
+    border: 3px solid black;
+}
+
+#midias1 {
+    margin-top: 20px;
+}
+
+#midias2 {
+    margin-top: 20px;
+}
