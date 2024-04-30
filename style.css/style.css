@@ -63,6 +63,12 @@ header #logo {
     font-family: "Roboto", sans-serif;
 }
 
+/* nav */
+
+#nav-inicio {
+    color: #30859E;
+}
+
 /* conteúdo principal */
 
 main {
