@@ -1,16 +1,26 @@
-/* Configurações gerais */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Geral */
 
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    cursor: default;
+}
+
+/* Animações */
+
+
+
+/* Complete */
+
+body {
+    background-color: #13131f;
 }
 
 #body {
-    width: 70%;
+    width: 900px;
     margin: auto;
 }
 
@@ -20,156 +30,83 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 20px 0px 30px 0px;
+    color: #7f48d7;
 }
 
-header #logo {
-    color: #30859E;
-    cursor: pointer;
+#nav-inicio {
+    color: white;
+}
+
+h1 {
     letter-spacing: -2px;
 }
 
-header #logo span:hover {
-    color: black;
+h1 span:hover {
+    color: white;
 }
 
-header #logo h1 {
-    text-transform: uppercase;
-    font-size: 25px;
+a {
+   color:#7f48d7;
+   margin-right: 8px;
+   cursor: pointer;
+   font-weight: bold;
 }
 
-#logo-space {
-    margin: 0px 4px;
+a:last-child {
+    margin-right: 0px;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
+a:hover {
+    color: white;
 }
 
-header nav ul li {
-    margin-left: 20px;
+hr {
+    border-color: #7f48d7;
 }
 
-header nav ul li a:hover {
-    color: #30859E;
-}
+/* Main */
 
-header #logo {
-    font-family: "Roboto", sans-serif;
-}
-
-/* nav */
-
-#nav-inicio {
-    color: #30859E;
-}
-
-/* conteúdo principal */
 
 main {
     display: flex;
     justify-content: space-between;
-    background-color: #C9E1E8;
-    border-radius: 20px;
-    padding: 30px 30px;
-}
-
-#profile {
-    width: 300px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-#profile:hover {
-    cursor: default;
-    border: 2px solid #30859E;
-}
-
-#title, #sumary {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-}
-
-#title {
-    font-size: 40px;
-}
-
-#name {
-    color: #30859E;
-}
-
-#right-main-container1, #right-main-container2 {
-    height: 140px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px 30px;
-    border: 2px solid black;
-    cursor: default;
-}
-
-#right-main-container1:hover, #right-main-container2:hover {
-    border: 2px solid #30859E;
-}
-
-#right-main-container2 {
-    margin-top: 20px;
-    background-color: white;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 20px 0px 30px 0px;
+    color: #7f48d7;
 }
 
-#sumary {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 50px;
+main img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 0px 0px 100px;
+    background-color: #7f48d7;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
-.midias {
-    display: flex;
-    justify-content: center;
+main img:hover {
+    background-color: white;
 }
-
-a {
-    color: black;
-}
-
-i {
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-#linkedin, #github, #whatsapp{
-    border: 3px solid #30859E;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    background-color: #C9E1E8;
-    width: 150px;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 20px;
-}
-
-#linkedin:hover, #github:hover, #whatsapp:hover {
-    background-color: #30859E;
-    color: white;
-    border: 3px solid black;
-}
-
-/* Projects */
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 50px 0px;
-    color: #30859E;
-    cursor: default;
+    font-size: 30px;
+}
+
+#buttons {
+    margin-top: 15px;
+}
+
+#buttons a {
+    background-color: #7f48d7;
+    color: white;
+    padding: 8px 18px;
+}
+
+#buttons a:hover {
+    background-color: white;
+    color: #7f48d7;
+    transition: background-color 0.5s, color 0.5s;
 }
