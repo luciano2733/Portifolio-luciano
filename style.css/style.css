@@ -65,8 +65,12 @@ hr {
     border-color: #7f48d7;
 }
 
-/* Main */
+hr:hover {
+    border-color: white;
+    transition: border-color 0.2s;
+}
 
+/* Main */
 
 main {
     display: flex;
@@ -77,9 +81,9 @@ main {
 }
 
 main img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px 0px 0px 100px;
+    width: 230px;
+    height: 230px;
+    border-radius: 150px;
     background-color: #7f48d7;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -92,20 +96,62 @@ main img:hover {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 #buttons {
-    margin-top: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #buttons a {
-    background-color: #7f48d7;
     color: white;
-    padding: 8px 18px;
+    padding: 8px 32px;
+    flex: 1;
+}
+
+#buttons a:first-child {
+    background-color: #2a2929;
+    padding: 8px 34px;
+}
+
+#buttons a:last-child {
+    background-color: #0087ca;
+    padding: 8px 30px;
 }
 
 #buttons a:hover {
+    background-color: white;
+    color: #7f48d7;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#button-add {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#button-add a {
+    background-color: #00da19;
+    color: white;
+    padding: 8px 32px;
+    flex: 1;
+    text-align: center;
+}
+
+#button-add a:hover {
     background-color: white;
     color: #7f48d7;
     transition: background-color 0.5s, color 0.5s;
