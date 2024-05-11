@@ -83,7 +83,7 @@ main {
 main img {
     width: 230px;
     height: 230px;
-    border-radius: 150px;
+    border-radius: 20px;
     background-color: #7f48d7;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -100,7 +100,8 @@ h2 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 15px;
+    
 }
 
 h3 {
