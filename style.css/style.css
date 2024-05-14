@@ -113,6 +113,10 @@ h3 {
     padding: 8px 40px;
 }
 
+#buttons-content a:hover {
+    border: 3px solid white;
+}
+
 #buttons-content a:hover, #buttons-content a:hover i {
     background-color: #7f48d7;
     color: white;
