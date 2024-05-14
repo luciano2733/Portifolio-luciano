@@ -114,7 +114,7 @@ h3 {
 }
 
 #buttons-content a:hover {
-    border: 3px solid white;
+    background-color: #7f48d7;
 }
 
 #buttons-content a:hover, #buttons-content a:hover i {
