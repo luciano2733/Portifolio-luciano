@@ -279,3 +279,101 @@ h5 {
     opacity: 0.8;
 }
 
+/* Estilos para telas menores */
+
+@media (max-width: 768px) {
+    #body {
+        width: 100%;
+    }
+    
+    header {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #nav {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    main {
+        height: auto;
+        padding: 20px;
+        border: 0px solid #7f48d7;
+        border-radius: 20px;
+    }
+
+    #text-content {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #buttons-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #buttons-content a {
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 200px; /* Limita a largura máxima dos botões */
+        text-align: center; /* Centraliza o texto nos botões */
+    }
+
+    #github-link {
+        margin-left: -8px;
+    }
+
+    #projects-imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #certificates-imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #technologies-simbols {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Estilos para telas ainda menores */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4,
+    h5 {
+        font-size: 24px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    #projects-imgs img,
+    #certificates-imgs img {
+        width: 300px;
+        height: auto;
+    }
+
+    #projects-imgs,
+    #certificates-imgs {
+        grid-template-columns: 1fr;
+    }
+
+    #technologies-simbols i {
+        margin: 0px 10px 10px 10px;
+    }
+}
