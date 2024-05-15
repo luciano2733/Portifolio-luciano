@@ -27,9 +27,9 @@
             </div>
             <nav id="nav">
                 <a href="#inicio" id="nav-inicio">Início</a>
-                <a href="#projetos" id="nav-projetos">Projetos</a>
-                <a href="#tecnologias" id="nav-tecnologias">Tecnologias</a>
-                <a href="#certificados" id="nav-certificados">Certificados</a>
+                <a href="#projects-content" id="nav-projetos">Projetos</a>
+                <a href="#technologies" id="nav-tecnologias">Tecnologias</a>
+                <a href="#certificates" id="nav-certificados">Certificados</a>
             </nav>
         </header>
         <main>
@@ -99,6 +99,87 @@
                 </a>
             </div>
         </div>
+        <div id="technologies">
+            <h5>
+                <span>T</span>
+                <span>E</span>
+                <span>C</span>
+                <span>N</span>
+                <span>O</span>
+                <span>L</span>
+                <span>O</span>
+                <span>G</span>
+                <span>I</span>
+                <span>A</span>
+                <span>S</span>
+            </h5>
+            <p>Tecnologias que possuo conhecimento</p>
+            <div id="technologies-simbols">
+                <div class="technology-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="technology-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="technology-item">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="technology-item">
+                    <i class="fa-brands fa-react"></i>
+                    <p>ReactJS</p>
+                </div>
+            </div>
+        </div>
+        <div id="certificates-content">
+            <h6>
+                <span>C</span>
+                <span>E</span>
+                <span>R</span>
+                <span>T</span>
+                <span>I</span>
+                <span>F</span>
+                <span>I</span>
+                <span>C</span>
+                <span>A</span>
+                <span>D</span>
+                <span>O</span>
+                <span>S</span>
+            </h6>
+            <p>Clique para exibir a credencial</p>
+            <div id="certificates-imgs">
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/algoritmo/luciano-323" target="_blank">
+                    <img src="images/algoritim.png">
+                </a>
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/html/luciano-323" target="_blank">
+                    <img src="images/html5.png">
+                </a>
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/css/luciano-323" target="_blank">
+                    <img src="images/css3.png">
+                </a>
+                <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/luciano-323" target="_blank">
+                    <img src="images/javascript.png">
+                </a>
+                <a href="https://www.udemy.com/certificate/UC-5bef5367-37b9-4411-8417-2b254dd658ac/" target="_blank">
+                    <img src="images/english.png">
+                </a>
+                <a target="_blank">
+                    <img src="images/hackathon.png">
+                </a>
+            </div>
+        </div>
     </div>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
